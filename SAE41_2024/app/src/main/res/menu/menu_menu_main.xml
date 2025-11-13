@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/options_button"
+        android:title="Options"
+        app:showAsAction="always" />
+    
+    <item
+        android:id="@+id/finish_button"
+        android:title="Quitter"
+        app:showAsAction="always"/>
+</menu>

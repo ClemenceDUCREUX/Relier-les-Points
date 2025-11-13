@@ -1,0 +1,34 @@
+<puzzle size="9" nom="Niveau 2">
+  <paire> <!-- Rouge -->
+    <point colonne="0" ligne="0" />
+    <point colonne="1" ligne="6" />
+  </paire>
+  <paire> <!-- Bleu -->
+    <point colonne="1" ligne="2" />
+    <point colonne="0" ligne="7" />
+  </paire>
+  <paire> <!-- Vert -->
+    <point colonne="6" ligne="1" />
+    <point colonne="5" ligne="7" />
+  </paire>
+  <paire> <!-- Jaune -->
+    <point colonne="1" ligne="1" />
+    <point colonne="7" ligne="7" />
+  </paire>
+  <paire> <!-- Cyan -->
+    <point colonne="3" ligne="5" />
+    <point colonne="0" ligne="8" />
+  </paire>
+  <paire> <!-- Magenta -->
+    <point colonne="2" ligne="1" />
+    <point colonne="2" ligne="4" />
+  </paire>
+  <paire> <!-- Orange -->
+    <point colonne="4" ligne="1" />
+    <point colonne="7" ligne="8" />
+  </paire>
+  <paire> <!-- Violet -->
+    <point colonne="8" ligne="0" />
+    <point colonne="8" ligne="8" />
+  </paire>
+</puzzle>

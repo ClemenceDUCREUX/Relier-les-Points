@@ -1,0 +1,18 @@
+<puzzle size="5" nom="Niveau 1">
+  <paire> <!-- Rouge -->
+    <point colonne="0" ligne="0" />
+    <point colonne="3" ligne="3" />
+  </paire>
+  <paire> <!-- Bleu -->
+    <point colonne="2" ligne="0" />
+    <point colonne="2" ligne="2" />
+  </paire>
+  <paire> <!-- Vert -->
+    <point colonne="0" ligne="1" />
+    <point colonne="1" ligne="3" />
+  </paire>
+  <paire> <!-- Jaune -->
+    <point colonne="0" ligne="3" />
+    <point colonne="1" ligne="4" />
+  </paire>
+</puzzle>

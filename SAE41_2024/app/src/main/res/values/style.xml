@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Thème principal de l'application avec une barre d'action claire -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#361F5F</item> <!-- Couleur principale de l'app (barre supérieure) -->
+        <item name="colorPrimaryDark">#2A1647</item> <!-- Variante foncée de la couleur principale -->
+        <item name="colorAccent">#FFFFFF</item> <!-- Couleur des éléments interactifs (boutons, curseurs...) -->
+    </style>
+
+    <!-- Thème pour les menus contextuels affichés depuis la toolbar -->
+    <style name="ToolbarPopupTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- Texte blanc dans les menus -->
+    </style>
+
+    <!-- Style personnalisé pour les menus déroulants (popup) -->
+    <style name="CustomPopupMenu" parent="android:Widget.Holo.Light.PopupMenu">
+        <item name="android:textColor">@color/menu_text_color</item> <!-- Utilise une couleur définie dans colors.xml -->
+    </style>
+
+    <!-- Thème personnalisé utilisé pour l'activité Menu avec menu déroulant violet -->
+    <style name="MenuThemeWithPurpleMenu" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:popupMenuStyle">@style/CustomPopupMenu</item> <!-- Applique un style personnalisé au menu popup -->
+    </style>
+
+</resources>

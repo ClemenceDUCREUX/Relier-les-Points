@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Préférence permettant d'activer ou désactiver le mode achromate.
+        Ce mode affiche le jeu uniquement en niveaux de gris, utile pour les joueurs daltoniens.
+    -->
+    <CheckBoxPreference
+        android:key="achromateMode"
+        android:title="Mode Achromate"
+        android:summary="Afficher le jeu en nuances de gris"
+        android:defaultValue="false" />
+
+    <!--
+        Catégorie regroupant les règles de base du jeu.
+        Ces règles sont affichées sous forme de texte informatif.
+    -->
+    <PreferenceCategory android:title="Règles du jeu">
+        <Preference
+            android:title="Règles"
+            android:summary="- Reliez les points de même couleur.\n- Tous les chemins doivent être utilisés.\n- Vous ne pouvez pas traverser un autre chemin.\n- Complétez la grille pour gagner !" />
+    </PreferenceCategory>
+
+    <!--
+        Catégorie contenant les explications sur les commandes et interactions tactiles.
+        Permet d'aider l'utilisateur à comprendre comment manipuler le jeu.
+    -->
+    <PreferenceCategory android:title="Commandes">
+        <Preference
+            android:title="Comment jouer"
+            android:summary="- Touchez un point pour commencer un chemin.\n- Glissez votre doigt pour tracer un chemin.\n- Relâchez pour terminer le tracé.\n- Cliquez sur 'Réinitialiser' pour recommencer." />
+    </PreferenceCategory>
+
+</PreferenceScreen>

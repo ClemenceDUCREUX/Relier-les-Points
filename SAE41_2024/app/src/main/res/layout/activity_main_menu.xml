@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#361F5F">
+
+    <!-- Bienvenue -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="Bienvenue dans"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Titre du jeu -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Relier les points "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Choix niveaux -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Sélectionnez un niveau"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!-- Niveaux -->
+    <ListView
+        android:id="@+id/level_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#D1D0D0"
+        android:dividerHeight="1dp"/>
+</LinearLayout>

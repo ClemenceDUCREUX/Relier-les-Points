@@ -1,0 +1,46 @@
+<puzzle size="14" nom="Niveau 3">
+  <paire> <!-- Rouge -->
+    <point colonne="1" ligne="12" />
+    <point colonne="8" ligne="3" />
+  </paire>
+  <paire> <!-- Bleu -->
+    <point colonne="0" ligne="0" />
+    <point colonne="4" ligne="13" />
+  </paire>
+  <paire> <!-- Vert -->
+    <point colonne="5" ligne="13" />
+    <point colonne="13" ligne="0" />
+  </paire>
+  <paire> <!-- Jaune -->
+    <point colonne="1" ligne="0" />
+    <point colonne="7" ligne="6" />
+  </paire>
+  <paire> <!-- Cyan -->
+    <point colonne="8" ligne="10" />
+    <point colonne="11" ligne="12" />
+  </paire>
+  <paire> <!-- Magenta -->
+    <point colonne="2" ligne="10" />
+    <point colonne="8" ligne="12" />
+  </paire>
+  <paire> <!-- Orange -->
+    <point colonne="4" ligne="11" />
+    <point colonne="7" ligne="3" />
+  </paire>
+  <paire> <!-- Violet -->
+    <point colonne="1" ligne="11" />
+    <point colonne="8" ligne="2" />
+  </paire>
+  <paire> <!-- Marron -->
+    <point colonne="10" ligne="13" />
+    <point colonne="12" ligne="8" />
+  </paire>
+  <paire> <!-- Vert Sapin -->
+    <point colonne="12" ligne="5" />
+    <point colonne="13" ligne="13" />
+  </paire>
+  <paire> <!-- Indigo -->
+    <point colonne="13" ligne="1" />
+    <point colonne="13" ligne="4" />
+  </paire>
+</puzzle>

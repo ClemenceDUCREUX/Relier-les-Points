@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sae41_2024">
+
+    <!-- Déclaration de l'application Android -->
+    <application
+        android:allowBackup="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Activité principale affichée au lancement de l'application -->
+        <activity android:name=".MenuActivity"
+            android:exported="true"
+            android:theme="@style/MenuThemeWithPurpleMenu" >
+            <!-- Filtre d’intent pour déclarer cette activité comme point d’entrée (icône du launcher) -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activité permettant de gérer les préférences utilisateur (mode achromate, etc.) -->
+        <activity
+            android:name=".OptionsActivity"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+
+        <!-- Activité principale du jeu : affichage de la grille, interaction avec les niveaux -->
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+    </application>
+</manifest>
