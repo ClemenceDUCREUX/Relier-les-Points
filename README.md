@@ -12,7 +12,7 @@ Le jeu permet de tracer, effacer et recommencer les chemins autant de fois que n
 
 ### 👥 Auteurs du projet
 - Clément JANNAIRE  
-- Clémence DUREUX
+- Clémence DUCREUX
 
 ---
 
